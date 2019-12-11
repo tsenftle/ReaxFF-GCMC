@@ -1,7 +1,7 @@
 #!/bin/bash
-#SBATCH --job-name=sl0a_1
+#SBATCH --job-name=hybrid
 #SBATCH --partition=scavenge
-#SBATCH --time=04:00:00
+#SBATCH --time=00:20:00
 #SBATCH --nodes=1
 #SBATCH --ntasks=24
 #SBATCH --mem-per-cpu=4G
